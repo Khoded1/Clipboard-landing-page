@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+.background {
+	background-position: center;
+}
+.header {
+	text-align: center;
+}
+.logo {
+	margin-bottom: 20px;
+	width: 6.2rem;
+	height: 6.2rem;
+}
+.head {
+	margin-bottom: 15px;
+	font-size: 2.6rem;
+	color: hsl(210, 10%, 33%);
+}
+.text {
+	font-size: 1.2rem;
+	color: hsl(201, 11%, 66%);
+	line-height: 1.5;
+}
+.link {
+	text-align: center;
+	margin-top: 2.4rem;
+}
+.ios {
+	font-size: 1rem;
+	background-color: hsl(171, 66%, 44%);
+	color: #fff;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-decoration: none;
+	border-radius: 2rem;
+	box-shadow: 0 4px 8px 0 rgba(39, 184, 162, 0.46);
+}
+.mac {
+	font-size: 1rem;
+	background-color: hsl(233, 100%, 69%);
+	color: #fff;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-decoration: none;
+	border-radius: 2rem;
+	margin-left: 1rem;
+	box-shadow: 0 4px 8px 0 rgba(97, 115, 255, 0.793);
+}
+/* Section 2 */
+.section-2 {
+	margin-top: 9rem;
+}
+.snippets {
+	text-align: center;
+}
+.head-2 {
+	font-size: 2.2rem;
+	color: hsl(210, 10%, 33%);
+	margin-bottom: 15px;
+}
+.text-2 {
+	color: hsl(201, 11%, 66%);
+	font-size: 1.1rem;
+	line-height: 1.5;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 2.2rem;
+	margin-top: 6.2rem;
+}
+.text-head {
+	margin-bottom: 0.5rem;
+	color: hsl(210, 10%, 33%);
+}
+.grid-head-text {
+	margin-bottom: 3rem;
+	color: hsl(201, 11%, 66%);
+}
+.access {
+	margin-top: 9.6rem;
+	text-align: center;
+}
+.access-head {
+	margin-bottom: 1.2rem;
+	font-size: 2rem;
+}
+.access-text {
+	color: hsl(201, 11%, 66%);
+	margin-bottom: 2rem;
+}
+.device-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.workflow {
+	text-align: center;
+	margin-top: 4.4rem;
+	margin-bottom: 4.4rem;
+}
+.workflow-head {
+	font-size: 2.4rem;
+	color: hsl(210, 10%, 33%);
+	margin-bottom: 0.5rem;
+}
+.workflow-text {
+	color: hsl(201, 11%, 66%);
+	font-size: 1.2rem;
+}
+.flex {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	text-align: center;
+}
+.go-images {
+	width: 2.5rem;
+	height: 1.6rem;
+	margin-bottom: 1.8rem;
+}
+.flow-head {
+	margin-bottom: 1.5rem;
+	color: hsl(210, 10%, 33%);
+}
+.flow-text {
+	color: hsl(201, 11%, 66%);
+	line-height: 1.5;
+}
+.logos {
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	justify-items: center;
+	margin-top: 8.4rem;
+}
+.clip {
+	margin-top: 6.2rem;
+	margin-bottom: 4.4rem;
+	text-align: center;
+}
+.clipboard {
+	font-size: 2.3rem;
+	color: hsl(210, 10%, 33%);
+	margin-bottom: 1rem;
+}
+.clipboard-text {
+	color: hsl(201, 11%, 66%);
+	margin-bottom: 3rem;
+}
+/* FOOTER */
+.footer {
+	background-color: rgba(241, 243, 245, 0.712);
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	padding: 2rem;
+	justify-items: center;
+	align-items: center;
+}
+/* .footer-contact {
+	display: grid;
+	grid-template-columns: repeat(3, 1.5fr);
+	gap: 2rem;
+	column-gap: 2.2rem;
+} */
+.footer-link {
+	text-decoration: none;
+	line-height: 2;
+	color: hsl(210, 10%, 33%);
+}
+.footer-logo {
+	width: 4.2rem;
+	height: 4.2rem;
+	display: block;
+}
+.details {
+	list-style: none;
+}
+.info-logos,
+.order-list,
+.footer-logo-link {
+	display: inline-block;
+	list-style: none;
+	display: flex;
+	gap: 1rem;
+}
+.attribution {
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
